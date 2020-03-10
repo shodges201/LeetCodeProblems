@@ -1,4 +1,4 @@
-class ReverseStringSolution {
+class ReverseStringolution {
     public static int reverse(int x) {
         Integer newInt = new Integer(x);
         String s = new String(Integer.toString(newInt));
@@ -51,4 +51,3 @@ class ReverseStringSolution {
     public static void main(String args[]){
         System.out.println("Reversed integer input: " + new Integer(reverse( new Integer(args[0]))).toString());
     }
-}
